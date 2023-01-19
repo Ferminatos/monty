@@ -45,6 +45,8 @@ void err(int error_code, ...)
 void more_err(int error_code, ...)
 {
 	va_list ag;
+	char *op;
+	int l_num;
 
 	va_start(ag, error_code);
 	switch (error_code)
@@ -56,6 +58,14 @@ void more_err(int error_code, ...)
 		case 7:
 			fprintf(stderr, "L%d: can't pop an empty stack\n",
 				va_arg(ag, int));
+			break;
+		case 8:
+			l_num = va_arg(ag, unsigned int);
+			op = va_arg(ag, char *);
+			fprintf(stderr, "L%d: can't %s, stack too short\n",
+				l_num, op);
+			break;
+
 			break;
 		default:
 			break;
