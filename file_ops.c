@@ -87,6 +87,7 @@ void find_func(char *opcode, char *value, int ln, int format)
 	instruction_t func_list[] = {
 		{"push", add_to_stack},
 		{"pall", print_stack},
+		{"pint", print_top},
 		{NULL, NULL}
 	};
 

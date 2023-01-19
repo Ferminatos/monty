@@ -58,7 +58,6 @@ void add_to_queue(stack_t **, unsigned int);
 void call_fun(op_func, char *, char *, int, int);
 
 void print_top(stack_t **, unsigned int);
-void pop_top(stack_t **, unsigned int);
 
 /*Error hanlding*/
 void err(int error_code, ...);
