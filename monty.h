@@ -60,6 +60,7 @@ void print_stack(stack_t **, unsigned int);
 void print_top(stack_t **, unsigned int);
 void pop_top(stack_t **stack, unsigned int line_number);
 void swap_nodes(stack_t **stack, unsigned int line_number);
+void add_nodes(stack_t **stack, unsigned int line_number);
 
 /*Error hanlding*/
 void err(int error_code, ...);
