@@ -32,7 +32,8 @@ void nop(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * sub_nodes - Adds the top two elements of the stack.
+ * sub_nodes - subtracts the top element of the stack from 
+ * the second top element of the stack.
  * @stack: Pointer to a pointer pointing to top node of the stack.
  * @line_number: Interger representing the line number of of the opcode.
  */
@@ -52,7 +53,8 @@ void sub_nodes(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * div_nodes - Adds the top two elements of the stack.
+ * div_nodes - divides the second top element of the stack 
+ * by the top element of the stack.
  * @stack: Pointer to a pointer pointing to the top node of the stack.
  * @line_number: Interger representing the line number of of the opcode.
  */
@@ -75,7 +77,8 @@ void div_nodes(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * mul_nodes - Adds the top two elements of the stack.
+ * mul_nodes - multiplies the second top element of the stack 
+ * with the top element of the stack.
  * @stack: Pointer to a pointer pointing to top node of the stack.
  * @line_number: Interger representing the line number of of the opcode.
  */
