@@ -65,6 +65,7 @@ void nop(stack_t **stack, unsigned int line_number);
 void sub_nodes(stack_t **stack, unsigned int line_number);
 void div_nodes(stack_t **stack, unsigned int line_number);
 void mul_nodes(stack_t **stack, unsigned int line_number);
+void mod_nodes(stack_t **stack, unsigned int line_number);
 
 /*Error hanlding*/
 void err(int error_code, ...);
