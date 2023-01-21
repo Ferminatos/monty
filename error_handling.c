@@ -40,7 +40,7 @@ void err(int error_code, ...)
 
 /**
  * more_err - handles errors.
- * @error_code: The error codes 6 to 9
+ * @error_code: The error codes 6 to 11
  */
 void more_err(int error_code, ...)
 {

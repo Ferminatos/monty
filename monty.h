@@ -67,6 +67,7 @@ void div_nodes(stack_t **stack, unsigned int line_number);
 void mul_nodes(stack_t **stack, unsigned int line_number);
 void mod_nodes(stack_t **stack, unsigned int line_number);
 void print_char(stack_t **stack, unsigned int line_number);
+void print_str(stack_t **stack, __attribute__((unused))unsigned int ln);
 
 /*Error hanlding*/
 void err(int error_code, ...);
