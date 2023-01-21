@@ -1,8 +1,7 @@
 #include "monty.h"
 
 /**
-
- * mod_nodes -  computes the rest of the division of the second top element of 
+ * mod_nodes -  computes the rest of the division of the second top element of
  * the stack by the top element of the stack
  * @stack: Pointer to a pointer pointing to the top node of the stack.
  * @line_number: Interger representing the line number of of the opcode.

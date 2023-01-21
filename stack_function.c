@@ -25,7 +25,7 @@ void add_to_stack(stack_t **new_node, __attribute__((unused))unsigned int ln)
 
 
 /**
- * print_stack - prints all the values on the stack, starting from 
+ * print_stack - prints all the values on the stack, starting from
  * the top of the stack.
  * @stack: Pointer to a pointer pointing to top node of the stack.
  * @line_number: line number of  the opcode.
